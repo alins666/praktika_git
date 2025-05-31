@@ -5,7 +5,7 @@ from km import meters_to_kilometers
 
 meters = float(input("Введите количество метров: "))
 
-print(f"{meters} метров = {mm.meters_to_millimeters(meters)} миллиметров")
-print(f"{meters} метров = {cm.meters_to_centimeters(meters)} сантиметров")
-print(f"{meters} метров = {dm.meters_to_decimeters(meters)} дециметров")
-print(f"{meters} метров = {km.meters_to_kilometers(meters)} километров")
+print(f"{meters} метров = {meters_to_millimeters(meters)} миллиметров")
+print(f"{meters} метров = {meters_to_centimeters(meters)} сантиметров")
+print(f"{meters} метров = {meters_to_decimeters(meters)} дециметров")
+print(f"{meters} метров = {meters_to_kilometers(meters)} километров")
