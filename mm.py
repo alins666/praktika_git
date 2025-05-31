@@ -1,2 +1,2 @@
 def meters_to_millimeters(meters):
-    return meters * 10000
+    return meters * 1000
